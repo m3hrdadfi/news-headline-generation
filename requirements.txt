@@ -4,5 +4,6 @@ hazm
 clean-text[gpl]
 emoji
 transformers
+datasets
 plotly
 psutil
