@@ -1,5 +1,5 @@
 This [paper](https://arxiv.org/abs/1907.12461) introduced the opportunity to use available pre-trained LMs (BERT, GPT-2, and RoBERTa) to achieve state-of-the-art results on some interesting NLP tasks like Text Generation.
-So, I trained an EncoderDecoder model based on parsBERT on [VOA Persian Corpus](https://jon.dehdari.org/corpora/#persian) (a medium-sized corpus of 7.9 million words, 2003-2008) to generate headlines.
+So, I trained an EncoderDecoder model based on parsBERT on [VoA Persian Corpus](https://jon.dehdari.org/corpora/#persian) (a medium-sized corpus of 7.9 million words, 2003-2008) to generate headlines.
 The model achieved a 25.30 ROUGE-2 score.
 
 <br />

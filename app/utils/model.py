@@ -41,5 +41,5 @@ def generate_output(
 
     outputs = model.generate(input_ids, attention_mask=attention_mask)
     output_str = tokenizer.batch_decode(outputs, skip_special_tokens=True)
-    output_str = output_str.replace('هه', 'ه‌ه')
+    output_str = [op.replace('هه', 'ه‌ه') for op in output_str]
     return output_str
