@@ -18,7 +18,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_NAME_OR_PATH = '/content/bert2bert-fa-news-headline/'
+MODEL_NAME_OR_PATH = 'm3hrdadfi/bert2bert-fa-news-headline'
 MODEL_DESC = load_local_text(BASE_DIR + '/assets/description.txt')
 CODE_DESC = load_local_text(BASE_DIR + '/assets/code_snippet.txt')
 

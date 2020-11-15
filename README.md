@@ -23,6 +23,8 @@ The following table summarizes the ROUGE scores obtained by the Bert2Bert model.
 | ROUGE-L |   41.20   |  42.22 |   40.76  |
 
 ## How to use
+
+### HuggingFace Transformers
 ```python
 from transformers import (
     BertTokenizerFast,
@@ -44,6 +46,11 @@ outputs = model.generate(input_ids, attention_mask=attention_mask)
 generated = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 print(f'YOUR GENERATED TEXT: {generated}')
 ```
+
+### Streamlit Application on Google-Colab
+Follow the block steps on this Colab notebook.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m3hrdadfi/news-headline-generation/blob/master/notebooks/How_to_use_app.ipynb) 
 
 ## Cite 
 I didn't publish any paper about this work. Please cite this repository in publications as the following:
