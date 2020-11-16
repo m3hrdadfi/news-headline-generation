@@ -7,7 +7,12 @@ The model achieved a 25.30 ROUGE-2 score.
 [![News Headline Generation](assets/screenshot.png)](https://youtu.be/gs4PdKUxoKk)
 
 ## Dataset information
-The dataset includes the Persian news between 2003-2008 from VoA News Network. In this particular example, I cleaned the dataset into pairs of articles and headlines and reduced the articles' length to a maximum of 512, suitable for parsBERT. Also, for making things simple, converted the dataset into the HuggingFace' datasets, which is available in the repo.
+The dataset includes the Persian news between 2003-2008 from VoA News Network. In this particular example, I cleaned the dataset into pairs of articles and headlines and reduced the articles' length to a maximum of 512, suitable for parsBERT. 
+Also, for making things simple, converted the dataset into the [HuggingFace' datasets](https://github.com/m3hrdadfi/news-headline-generation/tree/master/datasets), which is available in the [repo](https://github.com/m3hrdadfi/news-headline-generation/tree/master/datasets).
+Or you can access the `csv` format here:
+- [Train Set](https://drive.google.com/uc?id=1-9Tf8-Jyzg8qsZwYRGU_DghyaxFdU5F_)
+- [Dev Set](https://drive.google.com/uc?id=1-BUxuBqSPCWc0xgbENyjVsu1MJHksOJy)
+- [Test Set](https://drive.google.com/uc?id=1-AAzeSnzJO-f0ti_EYhqVOSx2qdVWVud)
 
 |    #    | Train |  Dev | Test |
 |:-------:|:-----:|:----:|:----:|
